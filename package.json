@@ -1,0 +1,37 @@
+{
+  "name": "@hexlet/code",
+  "version": "3.0.0",
+  "description": "[![Actions Status](https://github.com/gtrsh/backend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/gtrsh/backend-project-lvl1/actions)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtrsh/backend-project-lvl1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gtrsh/backend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/gtrsh/backend-project-lvl1#readme",
+  "bin": {
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js",
+    "brain-gcd": "bin/brain-gcd.js",
+    "brain-progression": "bin/brain-progression.js",
+    "brain-prime": "bin/brain-prime.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
